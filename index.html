@@ -50,17 +50,9 @@
             </div>
 
             <div class="card">
-                <h2>Educação</h2>
-                <p>Colégio Carvajú<br/>2012-2025(Técnico Médio De Informática)</p>
-                <p>CENFOC<br/>2024-2025(Montador De Estruturas Metálicas)</p>
-            </div>
-
-            <div class="card">
                 <h2>Experiência</h2>
                 <ul>
-                    <li>Criação de Websites</li>
-                    <li>Soldadar em Processo Eletrodo Revestido</li>
-                    <li>Soldador Mig-Mag</li>
+                    <li>Ubipper - Diretor de Projetos Estratégicos(2019)</li>
                 </ul>
             </div>
 
@@ -69,23 +61,87 @@
                 <span>HTML</span>
                 <span>CSS</span>
                 <span>JavaScript</span>
-                <span>Soldador Nível 3</span>
+                <span>Soldador</span>
                 <span>Montador de Estruturas Metálicas</span>
-                
             </div>
+
+
+
+
+
+
+
+
+
+
+
+           
         </div>
+         <section class="portfolio-section">
+                <h2>Projetos Realizados</h2>
+                <div class="portfolio-grid">
+
+                                <!-- Usuário 1 -->
+                    <div class="portfolio-card">
+                        <img src="usuario_1.jpg" alt="Mini site 1">
+                        <div class="info">
+                            <h3>Anne Lutete</h3>
+                            <p>Conteúdo Lifestyle</p>
+                            <a href="https://annelutete.vercel.app" target="_blank">Ver Site</a>
+                        </div>
+                    </div>
+
+                                <!-- Usuário 2 -->
+                    <div class="portfolio-card">
+                        <img src="usuario_2.jpg" alt="Mini site 2">
+                        <div class="info">
+                            <h3>Guilmara Francisco</h3>
+                            <p>Conteúdo Lifestyle</p>
+                            <a href="https://guilmarafrancisco.vercel.app" target="_blank">Ver Site</a>
+                        </div>
+                    </div>
+
+
+                    
+                                <!-- Usuário 3 -->
+                    <div class="portfolio-card">
+                        <img src="usuario_3.jpg" alt="Mini site 3">
+                        <div class="info">
+                            <h3>Elisabeth Gaspar</h3>
+                            <p>Conteúdo Lifestyle</p>
+                            <a href="https://elisabeth-kohl.vercel.app" target="_blank">Ver Site</a>
+                        </div>
+                    </div>
+
+                    
+                                <!-- Usuário 3 -->
+                    <div class="portfolio-card">
+                        <img src="usuario_4.jpg" alt="Mini site 4">
+                        <div class="info">
+                            <h3>CKEUTA</h3>
+                            <p>Moda Femenina</p>
+                            <a href="https://ckeuta.vercel.app/" target="_blank">Ver Site</a>
+                        </div>
+                    </div>
+                    <!-- Adicione mais cards conforme necessário -->
+                </div>
+            </section>
     </div>
 
-    <footer class="footer">
-        <div class="credito">
-            Desenvolvido por <a href="pacotes.html">William</a>
-        </div>
-    </footer>
+   
 
 
                     <script src="https://unpkg.com/scrollreveal"></script>
                     <script defer src="william.js"></script>
                     <script src="scroll.js"></script>
+
+
+    <script>
+        const cards = document.querySelectorAll('.portfolio-card');
+        cards.forEach((card, index) => {
+            card.style.animation = `fadeInUp 0.6s ease forwards ${index * 0.2}s`;
+        });
+    </script>
                      
 </body>
 </html>
